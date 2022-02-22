@@ -1,0 +1,16 @@
+﻿2. Ko var noskaidrot ar pārbaudi, ja x – vesels skaitlis: x & (x - 1) == 0 ?
+
+Return true any time the bit representation of X contains a single '1' or less.
+
+At a 4 bit int:
+0001 True (1)
+
+0010 True (2)
+
+0100 True (4)
+
+1000 True (-8)
+
+0000 Also true (0) 
+
+"x & (x - 1) == 0" Might be useful if the byte is used to store True/False Relations where more than 1 True is a fail condiition.
