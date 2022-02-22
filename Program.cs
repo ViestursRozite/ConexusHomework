@@ -14,7 +14,7 @@ namespace ConexusHomework
             int[] intArr = new int[] { 1, 0, 0, 4, 6, 0, 0, 9, 8, 4, 2, 4, 5, 0 };
 
             Console.WriteLine("unsorted [{0}]", string.Join(", ", intArr));
-            ShuffleZeroes.ShuffleAllInstancesOfIntToRightmost(intArr, 0);
+            ArrayOperation.AllToRightMost(intArr, 0);
             Console.WriteLine("shoveZero[{0}]", string.Join(", ", intArr));
 
             //2. Ko var noskaidrot ar pārbaudi, ja x – vesels skaitlis: x & (x - 1) == 0 ?

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConexusHomework
 {
-    class ShuffleZeroes
+    public static class ArrayOperation
     {
-        public static int[] ShuffleAllInstancesOfIntToRightmost(int[] intArray, int number)
+        public static int[] AllToRightMost(int[] intArray, int number)
         {
             int numberElementsToShove = 0;
 
