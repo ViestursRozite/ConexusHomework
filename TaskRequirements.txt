@@ -1,21 +1,20 @@
 ﻿Task 1 - SQL vaicājumi
 
-CREATE TABLE IF NOT EXISTING Employee (
-	'ID' int not null,
-	'Department' int not null,
-	'ChiefId'int null,
-	'Name' varchar(255) not null,
-	'Salary'decimal not null,
-	PRIMARY KEY ('ID')
-	CONSTRAINT 'fk_Employee_Employee' FOREIGN KEY ('ChiefId') REFERANCES Employee ('ID'),
-	CONSTRAINT 'fk_Employee_Department' FOREIGN KEY ('DepartmentID') REFERANCES Department ('ID'),
-)
-
 CREATE TABLE IF NOT EXISTS Department (
-	'ID' int not null,
-	'Name' varchar(255) not null,
-	PRIMARY KEY ('ID')
-)
+	`ID` INT NOT NULL,
+	`Name` VARCHAR(255) NOT NULL,
+	PRIMARY KEY (`ID`)
+);
+
+CREATE TABLE IF NOT EXISTS Employee (
+	`ID` INT NOT NULL PRIMARY KEY ,
+	`DepartmentID` INT NOT NULL,
+	`ChiefId` INT NULL,
+	`Name` VARCHAR(255) NOT NULL,
+	`Salary` DECIMAL NOT NULL,
+	CONSTRAINT `fk_Employee_Employee` FOREIGN KEY (`ChiefId`) REFERENCES Employee (`ID`),
+	CONSTRAINT `fk_Employee_Department` FOREIGN KEY (`DepartmentID`) REFERENCES Department (`ID`) 
+);
 
 1. Uzrakstiet SQL pieprasījumu, kas atgriež darbiniekus ar maksimālo atalgojumu savā departamentā.
 2. Uzrakstiet SQL pieprasījumu, kas noskaidro departamenta vadītājus.
