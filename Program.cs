@@ -107,7 +107,7 @@ namespace ConexusHomework
             Console.WriteLine("2. Ko var noskaidrot ar pārbaudi, ja x – vesels skaitlis: x & (x - 1) == 0 ?");
             Console.WriteLine("\nPress key to continiue:\n");
             Console.ReadKey(true);
-            Console.WriteLine(File.ReadAllText(path + "BitwiseOperationExplained.txt"));
+            Console.WriteLine(File.ReadAllText(path + "Task_BitwiseOperationExplained.txt"));
             Console.WriteLine("\nPress key to continiue:\n");
             Console.ReadKey(true);
 
