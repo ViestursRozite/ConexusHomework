@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Text;
-using MySql.Data.MySqlClient;
 
 namespace ConexusHomework
 {
