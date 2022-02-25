@@ -1,3 +1,2 @@
-﻿SELECT ID, Name, DepartmentID, MAX(Salary) 
-FROM Employee 
-GROUP BY DepartmentID; 
+﻿SELECT * FROM `Employee`
+WHERE `Salary` = (SELECT MAX(`Salary`) FROM `Employee`);

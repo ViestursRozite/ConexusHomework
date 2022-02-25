@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConexusHomework
+﻿namespace ConexusHomework
 {
-    class ShuffleZeroes
+    public static class Task2_ArrayOperation
     {
-        public static int[] ShuffleAllInstancesOfIntToRightmost(int[] intArray, int number)
+        public static int[] AllToRightMost(int[] intArray, int number)
         {
             int numberElementsToShove = 0;
 
