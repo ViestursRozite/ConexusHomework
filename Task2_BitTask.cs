@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConexusHomework
 {
-    public static class BitTask
+    public static class Task2_BitTask
     {
         public static bool BitQuestion(int x)
         {

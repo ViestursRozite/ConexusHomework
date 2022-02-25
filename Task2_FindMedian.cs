@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConexusHomework
 {
-    public static class FindMedian
+    public static class Task2_FindMedian
     {
         public static double Median(double[] sourceNumbers, bool keepSourceNumbersIntact = true)
         {

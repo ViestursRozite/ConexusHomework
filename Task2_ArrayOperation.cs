@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConexusHomework
 {
-    public static class ArrayOperation
+    public static class Task2_ArrayOperation
     {
         public static int[] AllToRightMost(int[] intArray, int number)
         {

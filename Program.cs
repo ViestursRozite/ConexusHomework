@@ -97,7 +97,7 @@ namespace ConexusHomework
             var a = new int[] { 5, 0, 8, 3, 0 };
             Console.WriteLine("[{0}]", string.Join(", ", a));
             Console.WriteLine("Turns into =>");
-            Console.WriteLine("[{0}]", string.Join(", ", ArrayOperation.AllToRightMost(a, 0)));
+            Console.WriteLine("[{0}]", string.Join(", ", Task2_ArrayOperation.AllToRightMost(a, 0)));
             Console.WriteLine("\nDone by swapping elemrnts within the array");
             Console.WriteLine("\nPress key to continiue:\n");
             Console.ReadKey(true);
@@ -121,7 +121,7 @@ namespace ConexusHomework
             var b = new double[] { 5, 0, 8, 3, 0 };
             Console.WriteLine("[{0}]", string.Join(", ", b));
             Console.WriteLine("↓");
-            Console.WriteLine(FindMedian.Median(b));
+            Console.WriteLine(Task2_FindMedian.Median(b));
             Console.WriteLine("\nPress key to continiue:\n");
             Console.ReadKey(true);
 
