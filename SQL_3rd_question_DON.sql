@@ -6,4 +6,4 @@ FROM (
 ) AS Totals 
 INNER JOIN `department`
 ON `Totals`.DepartmentID = `department`.`ID`
-ORDER BY Expenses_per_worker ASC
+ORDER BY Expenses_per_worker ASC 
