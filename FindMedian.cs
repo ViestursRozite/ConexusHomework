@@ -20,7 +20,6 @@ namespace ConexusHomework
             {
                 return MedianDestructive(sourceNumbers);
             }
-
         }
 
         public static double MedianDestructive(double[] sourceNumbers)

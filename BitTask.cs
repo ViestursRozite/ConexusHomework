@@ -10,7 +10,6 @@ namespace ConexusHomework
     {
         public static bool BitQuestion(int x)
         {
-            //2. Ko var noskaidrot ar pārbaudi, ja x – vesels skaitlis: x & (x - 1) == 0 ?
             return (x & (x - 1)) == 0;
         }
 
@@ -19,7 +18,5 @@ namespace ConexusHomework
             var s = Convert.ToString(x, 2).PadLeft(8, '0');
             return s;
         }
-
-
     }
 }
